@@ -19,5 +19,4 @@ def make_recommendation(title):
     df = pd.read_csv("assets/csv/cleaned-data.csv")
 
     data = df["title"].iloc[indices].values.tolist()
-    e_time = time()
     return data
